@@ -48,7 +48,7 @@ Linuxは、カーネル部分はLinus氏が作成しているが、各企業が�
 
 > https://ubuntu.com/download/server
 
-# ディレクトリ構成
+# Linuxの主なディレクトリ構成
 
 | パス      | 内容                                                         |
 | --------- | ------------------------------------------------------------ |
@@ -246,17 +246,18 @@ SSH接続を使ったファイルのやりとりは、WindowsならWinSCPを使�
 | cat      | ファイル内容を表示                            | cat パス          |
 | vi       | テキストエディタで編集（`vim`というのもある） | vi パス           |
 | mkdir    | ディレクトリ作成                              | mkdir -m 777 パス |
+| chmod    | アクセス権を変更する                          | chmod 777 パス    |
 
 ## 再起動
 
 ```bash
-sudo reboot
+reboot
 ```
 
 ## シャットダウン
 
 ```bash
-sudo shutdown -h now
+shutdown -h now
 ```
 
 # 情報
