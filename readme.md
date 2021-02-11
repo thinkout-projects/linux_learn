@@ -250,13 +250,13 @@ SSH接続を使ったファイルのやりとりは、WindowsならWinSCPを使�
 ## 再起動
 
 ```bash
-sudo reboot
+reboot
 ```
 
 ## シャットダウン
 
 ```bash
-sudo shutdown -h now
+shutdown -h now
 ```
 
 # 情報
